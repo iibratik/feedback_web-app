@@ -1,0 +1,61 @@
+.order {
+  &-btns {
+    margin-top: 14px;
+    max-width: 80%;
+    margin: 15px auto;
+  }
+  &-page {
+    & .worker-card {
+      max-width: 50%;
+      margin: 20px auto;
+    }
+  }
+}
+.applic-options {
+  border-radius: 14.429px;
+  background: #f6f6f6;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  &__body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+  }
+
+  &__left {
+    & .option-label {
+      color: #000;
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 16.975px; /* 125% */
+    }
+    width: 100%;
+    & p {
+      margin: 0;
+      // margin-bottom: 10px;
+    }
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & span {
+      color: #000;
+      font-family: Rubik;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16.975px; /* 125% */
+    }
+    & .first {
+      height: 18px;
+      max-width: 40%;
+    }
+  }
+}

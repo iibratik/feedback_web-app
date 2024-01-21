@@ -1,0 +1,40 @@
+.worker {
+  &-name {
+    color: #000;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12.287px; /* 125% */
+  }
+  &-job {
+    color: #6c6c6c;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.469px; /* 206.696% */
+  }
+  &-photo {
+    width: 70px;
+    height: 70px;
+  }
+  &-card {
+    border-radius: 12.298px;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    &__body {
+      display: flex;
+      flex-direction: column;
+      & .card-body {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        flex-direction: column;
+      }
+    }
+  }
+}

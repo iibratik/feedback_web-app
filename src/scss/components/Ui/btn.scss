@@ -1,0 +1,35 @@
+.btn-showUp-body {
+  border-radius: 14.429px;
+  background: #f6f6f6;
+}
+.showup-btn-body {
+  color: #000;
+  font-family: Rubik;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.975px;
+  i {
+    font-size: 25px;
+  }
+}
+.order-green-btn {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14.429px;
+  margin-top: 15px;
+  gap: 10px;
+  & span {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.975px; /* 125% */
+  }
+}
